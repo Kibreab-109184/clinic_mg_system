@@ -1,0 +1,72 @@
+
+body {
+    background-image: url("http://www.pptbackgrounds.org/uploads/silver-light-blue-wave-abstract-backgrounds-powerpoint.jpg");
+}
+
+#doc {
+    background-color: #6691df;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#ser {
+    background-color: #6691df;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 32px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+
+
+}
+#logout {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background-color: #6691df;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 32px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#serdel {
+    background-color: #6691df;
+}
+
+#docdel {
+    background-color: #6691df;
+}
+
+.servicecol {
+    padding: 15px;
+
+}
+
+.doccol {
+    padding: 15px;
+}
+
+table th {
+    padding:20px;
+}
+#idlist{
+    padding-right: 10px;
+}

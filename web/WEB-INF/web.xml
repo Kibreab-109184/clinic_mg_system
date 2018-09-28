@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>clinicService</servlet-name>
+        <servlet-class>controller.ClinicalServiceController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>clinicService</servlet-name>
+        <url-pattern>/clinicService</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>about</servlet-name>
+        <servlet-class>controller.About</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>about</servlet-name>
+        <url-pattern>/about</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>adminlogin</servlet-name>
+        <servlet-class>controller.AdminLogIn</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adminlogin</servlet-name>
+        <url-pattern>/admin</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>adminhome</servlet-name>
+        <servlet-class>controller.AdminHomeController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adminhome</servlet-name>
+        <url-pattern>/admin_home</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ClinicDocContr</servlet-name>
+        <servlet-class>controller.ClinicalDocController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClinicDocContr</servlet-name>
+        <url-pattern>/clinicalDocCont</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>reservation</servlet-name>
+        <servlet-class>controller.ReservationController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>reservation</servlet-name>
+        <url-pattern>/reserve</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>logout</servlet-name>
+        <servlet-class>controller.LogOutController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>doc_login</servlet-name>
+        <servlet-class>controller.DoctorLogInController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>doc_login</servlet-name>
+        <url-pattern>/doctor</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>patient_display</servlet-name>
+        <servlet-class>controller.PatientDisplayController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>patient_display</servlet-name>
+        <url-pattern>/patients</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>doctor_home_page</servlet-name>
+        <servlet-class>controller.Doctorlogout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>doctor_home_page</servlet-name>
+        <url-pattern>/views/doctor</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>log</servlet-name>
+        <servlet-class>controller.Doctorlogout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>log</servlet-name>
+        <url-pattern>/logout_Doc</url-pattern>
+    </servlet-mapping>
+
+</web-app>

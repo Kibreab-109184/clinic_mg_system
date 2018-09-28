@@ -1,0 +1,26 @@
+
+body{
+    /*background-image: url("https://hdwallpaper20.com/wp-content/uploads/data/2018/3/5/best-background-powerpoint-presentation-pictures-PIC-HWB36272-1024x612.jpg");*/
+    margin: auto;
+    background-image: url("http://www.pptbackgrounds.org/uploads/silver-light-blue-wave-abstract-backgrounds-powerpoint.jpg");
+
+
+}
+
+p{
+    text-align: center;
+    color:black;
+    font-family: "Times New Roman", serif;
+    font-size :50px;
+}
+
+.lead{
+     font-size :30px;
+ }
+
+h1{
+    text-align: center;
+    color:black;
+    font-family: georgia;
+    font-size :24px;
+}
